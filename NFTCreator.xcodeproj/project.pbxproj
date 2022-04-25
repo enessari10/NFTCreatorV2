@@ -1,0 +1,470 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BC6150032816BAE700F96C43 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC6150022816BAE700F96C43 /* AppDelegate.swift */; };
+		BC6150052816BAE700F96C43 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC6150042816BAE700F96C43 /* SceneDelegate.swift */; };
+		BC6150072816BAE700F96C43 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC6150062816BAE700F96C43 /* ViewController.swift */; };
+		BC61500A2816BAE700F96C43 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC6150082816BAE700F96C43 /* Main.storyboard */; };
+		BC61500D2816BAE700F96C43 /* NFTCreator.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BC61500B2816BAE700F96C43 /* NFTCreator.xcdatamodeld */; };
+		BC61500F2816BAE700F96C43 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC61500E2816BAE700F96C43 /* Assets.xcassets */; };
+		BC6150122816BAE700F96C43 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC6150102816BAE700F96C43 /* LaunchScreen.storyboard */; };
+		BC6150262816C3D400F96C43 /* JosefinSans-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BC6150222816C3D400F96C43 /* JosefinSans-SemiBold.ttf */; };
+		BC6150272816C3D400F96C43 /* JosefinSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BC6150232816C3D400F96C43 /* JosefinSans-Regular.ttf */; };
+		BC6150282816C3D400F96C43 /* JosefinSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BC6150242816C3D400F96C43 /* JosefinSans-Bold.ttf */; };
+		BC6150292816C3D400F96C43 /* JosefinSans-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BC6150252816C3D400F96C43 /* JosefinSans-Medium.ttf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BC614FFF2816BAE700F96C43 /* NFTCreator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NFTCreator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC6150022816BAE700F96C43 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BC6150042816BAE700F96C43 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		BC6150062816BAE700F96C43 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BC6150092816BAE700F96C43 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BC61500C2816BAE700F96C43 /* NFTCreator.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = NFTCreator.xcdatamodel; sourceTree = "<group>"; };
+		BC61500E2816BAE700F96C43 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BC6150112816BAE700F96C43 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BC6150132816BAE700F96C43 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC6150222816C3D400F96C43 /* JosefinSans-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "JosefinSans-SemiBold.ttf"; sourceTree = "<group>"; };
+		BC6150232816C3D400F96C43 /* JosefinSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "JosefinSans-Regular.ttf"; sourceTree = "<group>"; };
+		BC6150242816C3D400F96C43 /* JosefinSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "JosefinSans-Bold.ttf"; sourceTree = "<group>"; };
+		BC6150252816C3D400F96C43 /* JosefinSans-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "JosefinSans-Medium.ttf"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BC614FFC2816BAE700F96C43 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BC614FF62816BAE700F96C43 = {
+			isa = PBXGroup;
+			children = (
+				BC6150012816BAE700F96C43 /* NFTCreator */,
+				BC6150002816BAE700F96C43 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BC6150002816BAE700F96C43 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BC614FFF2816BAE700F96C43 /* NFTCreator.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BC6150012816BAE700F96C43 /* NFTCreator */ = {
+			isa = PBXGroup;
+			children = (
+				BC6150202816BBDF00F96C43 /* Constants */,
+				BC61501F2816BBBD00F96C43 /* Data */,
+				BC61501E2816BBB500F96C43 /* APIService */,
+				BC61501D2816BBAE00F96C43 /* Resources */,
+				BC61501C2816BBA800F96C43 /* Scenes */,
+				BC61501B2816BB9F00F96C43 /* View */,
+				BC61501A2816BB9800F96C43 /* Extensions */,
+				BC6150192816BB9000F96C43 /* Utility */,
+				BC61500E2816BAE700F96C43 /* Assets.xcassets */,
+				BC6150132816BAE700F96C43 /* Info.plist */,
+			);
+			path = NFTCreator;
+			sourceTree = "<group>";
+		};
+		BC6150192816BB9000F96C43 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		BC61501A2816BB9800F96C43 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		BC61501B2816BB9F00F96C43 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BC6150082816BAE700F96C43 /* Main.storyboard */,
+				BC6150102816BAE700F96C43 /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		BC61501C2816BBA800F96C43 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				BC6150062816BAE700F96C43 /* ViewController.swift */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		BC61501D2816BBAE00F96C43 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				BC6150212816C26C00F96C43 /* Fonts */,
+				BC6150022816BAE700F96C43 /* AppDelegate.swift */,
+				BC6150042816BAE700F96C43 /* SceneDelegate.swift */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		BC61501E2816BBB500F96C43 /* APIService */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = APIService;
+			sourceTree = "<group>";
+		};
+		BC61501F2816BBBD00F96C43 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				BC61500B2816BAE700F96C43 /* NFTCreator.xcdatamodeld */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		BC6150202816BBDF00F96C43 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		BC6150212816C26C00F96C43 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				BC6150242816C3D400F96C43 /* JosefinSans-Bold.ttf */,
+				BC6150252816C3D400F96C43 /* JosefinSans-Medium.ttf */,
+				BC6150232816C3D400F96C43 /* JosefinSans-Regular.ttf */,
+				BC6150222816C3D400F96C43 /* JosefinSans-SemiBold.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BC614FFE2816BAE700F96C43 /* NFTCreator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC6150162816BAE700F96C43 /* Build configuration list for PBXNativeTarget "NFTCreator" */;
+			buildPhases = (
+				BC614FFB2816BAE700F96C43 /* Sources */,
+				BC614FFC2816BAE700F96C43 /* Frameworks */,
+				BC614FFD2816BAE700F96C43 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NFTCreator;
+			productName = NFTCreator;
+			productReference = BC614FFF2816BAE700F96C43 /* NFTCreator.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BC614FF72816BAE700F96C43 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					BC614FFE2816BAE700F96C43 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+				};
+			};
+			buildConfigurationList = BC614FFA2816BAE700F96C43 /* Build configuration list for PBXProject "NFTCreator" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BC614FF62816BAE700F96C43;
+			productRefGroup = BC6150002816BAE700F96C43 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BC614FFE2816BAE700F96C43 /* NFTCreator */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BC614FFD2816BAE700F96C43 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC6150122816BAE700F96C43 /* LaunchScreen.storyboard in Resources */,
+				BC61500F2816BAE700F96C43 /* Assets.xcassets in Resources */,
+				BC61500A2816BAE700F96C43 /* Main.storyboard in Resources */,
+				BC6150272816C3D400F96C43 /* JosefinSans-Regular.ttf in Resources */,
+				BC6150292816C3D400F96C43 /* JosefinSans-Medium.ttf in Resources */,
+				BC6150262816C3D400F96C43 /* JosefinSans-SemiBold.ttf in Resources */,
+				BC6150282816C3D400F96C43 /* JosefinSans-Bold.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BC614FFB2816BAE700F96C43 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC6150072816BAE700F96C43 /* ViewController.swift in Sources */,
+				BC6150032816BAE700F96C43 /* AppDelegate.swift in Sources */,
+				BC6150052816BAE700F96C43 /* SceneDelegate.swift in Sources */,
+				BC61500D2816BAE700F96C43 /* NFTCreator.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BC6150082816BAE700F96C43 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BC6150092816BAE700F96C43 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BC6150102816BAE700F96C43 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BC6150112816BAE700F96C43 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BC6150142816BAE700F96C43 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BC6150152816BAE700F96C43 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BC6150172816BAE700F96C43 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = T6HN7DT422;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NFTCreator/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.enessari.NFTCreator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BC6150182816BAE700F96C43 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = T6HN7DT422;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NFTCreator/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.enessari.NFTCreator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BC614FFA2816BAE700F96C43 /* Build configuration list for PBXProject "NFTCreator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC6150142816BAE700F96C43 /* Debug */,
+				BC6150152816BAE700F96C43 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC6150162816BAE700F96C43 /* Build configuration list for PBXNativeTarget "NFTCreator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC6150172816BAE700F96C43 /* Debug */,
+				BC6150182816BAE700F96C43 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		BC61500B2816BAE700F96C43 /* NFTCreator.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				BC61500C2816BAE700F96C43 /* NFTCreator.xcdatamodel */,
+			);
+			currentVersion = BC61500C2816BAE700F96C43 /* NFTCreator.xcdatamodel */;
+			path = NFTCreator.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = BC614FF72816BAE700F96C43 /* Project object */;
+}
